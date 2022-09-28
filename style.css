@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;    
+}
+body{
+    background-color: hhsl(0, 0%, 100%);
+    width: 1440px;
+    padding: 25px;
+}
+main{
+    margin: auto;
+    background-color: white;
+    width: 50%;
+    box-sizing: border-box;    
+}
+.header{    
+    padding: 20px 0px;
+    background-color: white;
+    
+}
+h1,h3,h4{
+    display: inline-block;
+}
+img{
+    float: left;
+    padding: 15px;
+}
+p{
+    padding: 15px;
+    margin: 0;
+    font-size: 16px;
+}
+.number{
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    padding: 0px 6px;
+    border-radius: 3px;
+}
+h4{
+    float: right;    
+    font-weight: 500;
+}
+
+p{
+    color: hsl(219, 14%, 63%);
+}
+strong{
+    color: black;
+}
+.gray{
+    color: hsl(219, 14%, 63%); 
+}
+.blue{
+    color: hsl(219, 85%, 26%);
+}
+section{    
+    margin: 10px 25px;
+}
+.noread{
+    background-color: hsl(211, 68%, 94%);
+    cursor: pointer;
+}
+
+.msg{
+    border: 1px hsl(219, 14%, 63%) solid;
+    width: 545px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+img{
+    width: 50px;
+}
+.floatnone{
+    float: right;
+    cursor: pointer;
+}
+h4{
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    body{
+        width: 375px;
+        padding: 0px;
+        margin: auto;      
+    }
+    main{        
+        width: 375px;  
+        
+    }
+    .msg{
+        width: 240px;        
+    }
+    .header{
+        margin-top: 0;
+    }
+}
